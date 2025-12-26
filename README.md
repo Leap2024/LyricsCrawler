@@ -3,6 +3,7 @@
 ## 项目概述
 
 Genius歌词下载器多任务专业版是一个基于Python Tkinter开发的图形用户界面工具，专门用于从Genius.com网站批量下载歌词。该版本在原有单任务版本的基础上，引入了多任务管理功能，允许用户同时运行多个独立的歌词下载任务。
+Genius的Token获取方式详见：https://genius.com/api-clients
 
 ## 核心功能
 
@@ -74,7 +75,7 @@ Genius歌词下载器多任务专业版是一个基于Python Tkinter开发的图
 ## 文件结构
 
 ```
-multi_task_manager.py      # 主程序（多任务管理器）
+Genius_Lyrics_Crawl_MultiTask.py      # 主程序（多任务管理器）
 Genius_Lyrics_Crawl.py    # 单任务核心功能模块
 rate_limiter.py           # （可选）API速率限制器
 
